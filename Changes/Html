@@ -15,9 +15,10 @@ The Top laner is Usually a Character that will Be able to take damage for the te
 <p>Here is a Link to The League of legends offiicial Na Website.<a href="na.leagueoflegends.com">League of Legends official Na website</a></p>
 <img src=https://pbs.twimg.com/profile_images/571024672750178304/GpGC8aTW.jpeg width=420>
 <nav>
-  <a id= "champions" href="champions.html">Champions</a>
+  <a id= "Champions" href="champions.html">Champions</a>
   <a href="MapsandGamemodes.html">Playable maps and champions</a>
   <a href = "Updates of 2016">Updates/changes of 2016</a>
+  <a href = "quiz">Quiz</a>
 </nav>
 </body>
 </html>

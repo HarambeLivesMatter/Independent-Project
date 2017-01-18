@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"><link rel="stylesheet" href="quizz.css">
+  </head>  <body>
+  <p>What Champion's ultimate is called Whirling death?</p>
+ <input type = "radio" name = "ult" value = "Draven">Draven<br>
+ <input type = "radio" name = "ult" value = "zyra">Zyra<br>
+ <input type = "radio" name = "ult" value = "Kled">Kled<br>
+ <input type = "radio" name = "ult" value = "Rek'sai">Rek'sai<br>
+
+ <p>What Champion's Title is The PrideStalker?</p>
+ <input type = "radio" name = "Title" value = "Khaz'ix">Khaz'ix<br>
+ <input type = "radio" name = "Title" value = "Rengar">Rengar<br>
+   <input type = "radio" name ="Title" value = "Graves">Graves<br>
+ <input type = "radio" name = "Title" value = "Twisted Fate">Twisted Fate<br>
+
+ <p>What Champion's ultimate is called Blade of the exile</p>
+ <input type="radio" name = "ults" value = "Zac">Zac<br>
+ <input type = "radio" name = "ults" value ="Zed">Zed<br>
+ <input type = "radio" name = "ults" value = "Riven">Riven<br>
+ <input type = "radio" name = "ults" value = "Cassiopeia">Cassiopeia<br>
+
+ <p>What Champion's E Ability is Called flay</p>
+ <input type = "radio" name = "Flay" value = "Xerath">Xerath<br>
+ <input type = "radio" name = "Flay" value = "Renekton">Renekton<br>
+ <input type = "radio" name = "Flay" value = "Azir">Azir<br>
+ <input type = "radio" name ="Flay" value ="Thresh">Thresh<br>
+
+ <p>What Champion's Ultimate Name is Collateral Damage?</p>
+ <input type = "radio" name = "ColateralDmg" value = "Graves">Graves<br>
+ <input type = "radio" name = "ColateralDmg" value = "tristana">Tristana<br>
+ <input type = "radio" name = "ColateralDmg" value = "Miss Fortune">Miss Fortune<br>
+ <input  type = "radio" name = "ColateralDmg" value = "Lucian">Lucian<br>
+
+ <p>Whose Ultimate ability is called emporer's divide?</p>
+ <input type = "radio" name = "ultimate" value = "Cammile">Cammile<br>
+ <input type = "radio" name = "ultimate"
+ value = "Braum">Braum<br>
+ <input type = "radio" name = "ultimate" value = "Azir">Azir<br>
+ <input type = "radio" name = "ultimate" value = "Taliyah">Taliyah<br>
+
+ <p>Who's Champion says "Time to feast" when they are chosen in the champion selection</p>
+ <input type = "radio" name = "line" value = "Cho'gath">Cho'gath<br>
+ <input type = "radio" name = "line" value = "Kog'maw">Kog'Maw<br>
+ <input type = "radio" name = "line" value ="Rengar">Rengar<br>
+ <input type = "radio" name = "line" value ="Warwick">Warwick<br>
+
+ <p>Where is Taliyah From?</p>
+ <input type = "radio" name = "homeland" value = "Freijord">Freljord<br>
+ <input type = "radio" name ="homeland" value = "Shurima">Shurima<br>
+ <input type = "radio" name = "homeland" value= "Ionia">Ionia<br>
+ <input type = "radio" name = "homeland" value = "Shadlowisles">Shadow Isles<br>
+
+ <p>What is Vi's Ultimate called?</p>
+ <input type="radio" name = "assultnBattery" value = "assultnBattery">Assult and Battery<br>
+ <input type = "radio" name "assultnBattery"  value="PrimorDial Burst">Primordial Burst<br>
+ <input type = "radio" name ="assultnBattery" value = "Ace in a hole">Ace in a hole<br>
+ <input type="radio" name ="assultnBattery"
+        value = "Grand Skyfall">Grand Skyfall<br>
+
+ <p>What champion can recall while they are invisible</p>
+ <input type = "radio" name = "Stealth" value = "Evelynn">Evelynn<br>
+ <input type = "radio" name = "Stealth" value = "Rengar">Rengar<br>
+ <input type = "radio" name = "Stealth" value = "shaco">Shaco<br>
+ <input type = "radio" name = "Stealth"
+        value = "None of them">None of the above<br>
+
+ <p>What Champion's ult is called The Grand Challange</p>
+ <input type = "radio" name ="Challenge" value = "Jax">Jax<br>
+ <input type = "radio" name = "Challenge" value = "Fiora">Fiora<br>
+ <input type = "radio" name = "Challenge" value = "Cammile">Cammile<br>
+ <input type = "radio" name = "Challenge" value = "Jarvan IV">Jarven IV<br>
+
+ <p>What champion's title is the Headman's Pride</p>
+ <input type = "radio" name = "Pride" value = "JarvenIv">Jarven Iv<br>
+ <input type = "radio" name = "Pride" value = "Draven">Draven<br>
+ <input type="radio" name = "Pride" value = "Graves">Graves<br>
+ <input type = "radio" name = "Pride" value ="None of the above">None of the above<br>
+ <p>What Champion is based off of the God Anubis?</p>
+ <input type = "radio" name ="God" value = Nasus>Nasus<br>
+ <input type = "radio" name = "God" value = "Renekton">Renekton<br>
+ <input type = "radio" name = "God" value= "Azir">Azir<br>
+ <input type = "radio" name = "God" value = "Xerath">Xerath<br>
+ <button onclick="Test()">Check Score</button>
+<script>
+function Test(){
+  var quizzScore = 0
+  var one = document.querySelector("input[name='ult']:checked").value
+  if (one == "Draven") {
+
+    quizzScore = quizzScore + 1
+  }
+
+
+
+  var Two = document.querySelector("input[name='Title']:checked").value
+  if (Two == "Rengar"){
+
+     quizzScore = quizzScore + 1
+  }
+
+
+  var three = document.querySelector("input[name='ults']:checked").value
+  if (three =="Riven"){
+
+     quizzScore = quizzScore + 1
+  }
+
+
+
+  var four = document.querySelector("input[name='Flay']:checked").value
+  if(four == "Thresh"){
+
+     quizzScore = quizzScore + 1
+  }
+
+
+
+  var five = document.querySelector("input[name='ColateralDmg']:checked").value
+  if(five == "Graves"){
+
+     quizzScore = quizzScore + 1
+  }
+
+
+
+  var six = document.querySelector("input[name='ultimate']:checked").value
+  if(six == "Azir"){
+
+     quizzScore = quizzScore + 1
+  }
+
+
+
+  var seven = document.querySelector("input[name='line']:checked").value
+  if(seven == "Kog'maw"){
+
+     quizzScore = quizzScore + 1
+  }
+
+
+
+ var eight = document.querySelector("input[name='homeland']:checked").value
+  if(eight == "Shurima"){
+
+     quizzScore = quizzScore + 1
+  }
+
+
+  var nine = document.querySelector("input[name='assultnBattery']:checked").value
+  if(nine == "assultnBattery"){
+
+     quizzScore = quizzScore + 1
+  }
+
+
+
+  var ten = document.querySelector("input[name='Stealth']:checked").value
+  if(ten == "shaco"){
+
+     quizzScore = quizzScore + 1
+  }
+
+
+
+  var eleven = document.querySelector("input[name='Challenge']:checked").value
+  if(eleven == "Fiora"){
+
+     quizzScore = quizzScore + 1
+  }
+
+
+
+  var twelve = document.querySelector("input[name='Pride']:checked").value
+  if (twelve == "None of the above"){
+     quizzScore = quizzScore + 1
+  }var thirteen = document.querySelector("input[name='God']:checked").value
+if(thirteen == "Nasus"){
+  quizzScore = quizzScore + 1
+}
+alert("Your score is")
+alert(quizzScore)
+}
+
+</script>
+
+</nav>
+</body>
+</html>

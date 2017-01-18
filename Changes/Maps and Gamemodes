@@ -38,8 +38,10 @@
     <li>Then the last gamemode is Nexus seige and this again a rotating gamemode that takes place on summoners rift whoever alot of the map is cut off and no accessable.They way you Pllay is by destroying the enemies base as fast as you can then when their base is destroyed and then they have to destroy your bbase as fast as they can and whichever team did it faster wins.There are also special items to help you seige their base and special items to defend your base</li><img src="https://3.bp.blogspot.com/-ODfQVHVhcBo/V2nYFlppohI/AAAAAAAA76I/pPNCyRF3myEqMH812stcMj4LjUtLjbLogCLcB/s1600/ns1.jpg" width=300
   </ul>
   <nav>
-    <a href="index.html">Home</a>
-    <a id= "champions" href="champions.html">Champions</a>
+    <a href="Html">Home</a>
+    <a id= "Champions" href="champions.html">Champions</a>
+    <a href = "Updates of 2016">Updates/changes of 2016</a>
+    <a href = "quiz">Quiz</a>
   </nav>
   </body>
 </html>
